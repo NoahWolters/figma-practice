@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block: 0;
+}
+
+.first-header {
+  height: 200px;
+  color: white;
+  background-color: rgba(106, 28, 195, 1);
+}
+.first-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.student {
+  border: 2px solid rgba(106, 28, 195, 1);
+}
